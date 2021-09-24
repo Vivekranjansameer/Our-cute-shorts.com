@@ -1,0 +1,623 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body::before{
+    content: '';
+    background: black;
+    width: 84rem;
+    height: 60rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.2;
+    
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.img li{
+ list-style: none;
+}
+.img li a img{
+    width: 20rem;
+    height: 5rem;
+    font-family: 'Baloo Bhai 2', cursive;
+
+
+}
+header::before{
+    content: '' ;
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 84rem;
+    height: 20rem;
+    z-index: -1;
+    opacity: 0.7;
+    font-family: 'Baloo Bhai 2', cursive;
+ 
+}
+section{
+    display: flex;
+    
+}
+
+.tmkoc a img{
+   height: 15rem;
+   width: 15rem;
+   margin-top: 22rem;
+   margin-left: 2rem;
+}
+.t{
+    width:15rem;
+    height: 100%;
+    margin-left: 3rem;
+    
+
+}
+.t a {
+    
+    color: white;
+  background-color: rgb(111, 0, 255);
+  font-size: 1rem;
+  text-transform: capitalize;
+  text-decoration: unset;
+  font-family: 'Baloo Bhai 2', cursive;
+  
+}
+.t a:hover{
+    color: aqua;
+   background: #000;
+   font-size: 1.2rem;
+   text-decoration: unset;
+   animation: t 2s ease  infinite ;
+   font-family: 'Baloo Bhai 2', cursive;
+  
+}
+
+
+.rells a img{
+    height: 15rem;
+    width: 15rem;
+    margin-top: 22rem;
+    margin-left: 3rem;
+
+   
+  
+ }
+ .i{
+    width:15rem;
+    height: 100%;
+    margin-left: 3rem;
+ }
+ .i a {
+     
+    color: white;
+    background-color: rgb(111, 0, 255);
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-decoration: unset;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+ }
+ .i a:hover{
+    color: aqua;
+    background: #000;
+    font-size: 1.2rem;
+    text-decoration: unset;
+    animation: t 2s ease  infinite ;
+    font-family: 'Baloo Bhai 2', cursive;
+   
+ }
+
+.pubg a img{
+    height: 15rem;
+    width: 15rem;
+    margin-top: 22rem;
+    margin-left: 3rem;
+  
+ }
+ .p{
+    width:15rem;
+    height: 100%;
+    margin-left: 3rem;
+}
+ .p a{
+    color: white;
+    background-color: rgb(111, 0, 255);
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-decoration: unset;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+ }
+ .p a:hover{
+    color: aqua;
+   background: #000;
+   font-size: 1.2rem;
+   text-decoration: unset;
+   animation: t 4s ease  infinite ;
+   font-family: 'Baloo Bhai 2', cursive;
+
+}
+.pro a img{
+
+    height: 15rem;
+    width: 20rem;
+    margin-top: 22rem;
+    margin-left: 3rem;
+  
+}
+.pr{
+    width:15rem;
+    height: 100%;
+    margin-left: 3rem;
+}
+ .pr a{ 
+    color: white;
+    background-color: rgb(111, 0, 255);
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-decoration: unset;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+
+ }
+ .pr a:hover{
+    color: aqua;
+    background: #000;
+    font-size: 1.2rem;
+    text-decoration: unset;
+    animation: t 4s ease  infinite ;
+    font-family: 'Baloo Bhai 2', cursive;
+ 
+
+}
+footer{
+    width: 84rem;
+    height: 4rem;
+    background: #000;
+ text-align: center;
+ margin-top: 2rem;
+}
+h2{
+    color: white;
+
+    
+
+}
+h2 a{
+color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+ 
+}
+h2 a:hover{
+    color: aqua;
+
+    font-family: 'Baloo Bhai 2', cursive;
+ 
+}
+@media  screen And (max-width:414px) {
+    *{
+        padding: 0;
+        margin: 0;
+    
+    }
+    body::before{
+        content: '';
+        background: black;
+        width: 26rem;
+        height: 80rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        opacity: 0.2;
+        
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    
+    .img li{
+     list-style: none;
+    }
+    .img li a img{
+        width: 6rem;
+        height: 2rem;
+        font-family: 'Baloo Bhai 2', cursive;
+    
+    
+    }
+
+    header::before{
+        content: '' ;
+      
+        background-image: url(banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        width: 24rem;
+        height: 5rem;
+        z-index: -1;
+        opacity: 0.7;
+        font-family: 'Baloo Bhai 2', cursive;
+     
+    }
+  
+    
+    .tmkoc a img{
+       height: 10rem;
+       width: 10rem;
+       margin-top: 5rem;
+       margin-left: 5rem;
+    }
+    .t{
+        width:15rem;
+        height: 100%;
+        margin-left: 5rem;
+    }
+    .t a {
+        
+        color: white;
+      background-color: rgb(111, 0, 255);
+      font-size: 1rem;
+      text-transform: capitalize;
+      text-decoration: unset;
+      font-family: 'Baloo Bhai 2', cursive;
+      
+    }
+    .t a:hover{
+        color: aqua;
+       background: #000;
+       font-size: 1.2rem;
+       text-decoration: unset;
+       animation: t 2s ease  infinite ;
+       font-family: 'Baloo Bhai 2', cursive;
+      
+    }
+    
+    
+    .rells a img{
+        height: 10rem;
+        width: 10rem;
+        margin-top: 22rem;
+        margin-left: -15rem;
+
+
+       
+      
+     }
+     .i{
+        width:15rem;
+        height: 100%;
+       
+        margin-left: -15rem;
+     }
+     .i a {
+         
+        color: white;
+        background-color: rgb(111, 0, 255);
+        font-size: 1rem;
+        text-transform: capitalize;
+        text-decoration: unset;
+        font-family: 'Baloo Bhai 2', cursive;
+        
+     }
+     .i a:hover{
+        color: aqua;
+        background: #000;
+        font-size: 1.2rem;
+        text-decoration: unset;
+        animation: t 2s ease  infinite ;
+        font-family: 'Baloo Bhai 2', cursive;
+       
+     }
+    
+    .pubg a img{
+        height: 10rem;
+        width: 10rem;
+        margin-top: 38rem;
+        margin-left: -15rem;
+      
+     }
+     .p{
+        width:15rem;
+        height: 100%;
+       
+        margin-left: -15rem;
+    }
+     .p a{
+        color: white;
+        background-color: rgb(111, 0, 255);
+        font-size: 1rem;
+        text-transform: capitalize;
+        text-decoration: unset;
+        font-family: 'Baloo Bhai 2', cursive;
+        
+     }
+     .p a:hover{
+        color: aqua;
+       background: #000;
+       font-size: 1.2rem;
+       text-decoration: unset;
+       animation: t 4s ease  infinite ;
+       font-family: 'Baloo Bhai 2', cursive;
+    
+    }
+    .pro a img{
+    
+        height: 10rem;
+        width: 13rem;
+        margin-top: 53rem;
+        margin-left: -15rem;
+      
+    }
+    .pr{
+        width:15rem;
+        height: 100%;
+       margin-left: -15rem;
+    }
+     .pr a{ 
+        color: white;
+        background-color: rgb(111, 0, 255);
+        font-size: 1rem;
+        text-transform: capitalize;
+        text-decoration: unset;
+        font-family: 'Baloo Bhai 2', cursive;
+        
+    
+     }
+     .pr a:hover{
+        color: aqua;
+        background: #000;
+        font-size: 1.2rem;
+        text-decoration: unset;
+        animation: t 4s ease  infinite ;
+        font-family: 'Baloo Bhai 2', cursive;
+     
+    
+    }
+    footer{
+
+
+        width: 26rem;
+        height: 4rem;
+        background: #000;
+     text-align: center;
+     margin-top: 2rem;
+
+    }
+    h2{
+        color: white;
+        font-size: 1rem;
+    
+        
+    
+    }
+    h2 a{
+    color: rgb(8, 0, 255);
+        font-family: 'Baloo Bhai 2', cursive;
+     
+    }
+    h2 a:hover{
+        color: aqua;
+    
+        font-family: 'Baloo Bhai 2', cursive;
+     
+    }
+    
+}
+@media screen And (max-width:800px)And (min-width:500px){
+    *{
+        padding: 0;
+        margin: 0;
+    
+    }
+    body::before{
+        content: '';
+        background: black;
+        width: 50rem;
+        height: 70rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        opacity: 0.2;
+        
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    
+    .img li{
+     list-style: none;
+    }
+    .img li a img{
+        width: 15rem;
+        height: 4rem;
+        font-family: 'Baloo Bhai 2', cursive;
+    
+    
+    }
+    header::before{
+        content: '' ;
+        background-image: url(banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 50rem;
+        height: 10rem;
+        z-index: -1;
+        opacity: 0.7;
+        font-family: 'Baloo Bhai 2', cursive;
+     
+    }
+    /* section{
+        display: flex;
+        
+    } */
+    
+    .tmkoc a img{
+       height: 15rem;
+       width: 15rem;
+       margin-top: 10rem;
+       margin-left: 2rem;
+    }
+    .t{
+        width:15rem;
+        height: 100%;
+        margin-left: 3rem;
+        
+    
+    }
+    .t a {
+        
+        color: white;
+      background-color: rgb(111, 0, 255);
+      font-size: 1rem;
+      text-transform: capitalize;
+      text-decoration: unset;
+      font-family: 'Baloo Bhai 2', cursive;
+      
+    }
+    .t a:hover{
+        color: aqua;
+       background: #000;
+       font-size: 1rem;
+       text-decoration: unset;
+       animation: t 2s ease  infinite ;
+       font-family: 'Baloo Bhai 2', cursive;
+      
+    }
+    
+    
+    .rells a img{
+        height: 15rem;
+        width: 15rem;
+        margin-top: 10rem;
+        margin-left: 3rem;
+    
+       
+      
+     }
+     .i{
+        width:15rem;
+        height: 100%;
+        margin-left: 3rem;
+     }
+     .i a {
+         
+        color: white;
+        background-color: rgb(111, 0, 255);
+        font-size: 1rem;
+        text-transform: capitalize;
+        text-decoration: unset;
+        font-family: 'Baloo Bhai 2', cursive;
+        
+     }
+     .i a:hover{
+        color: aqua;
+        background: #000;
+        font-size: 1rem;
+        text-decoration: unset;
+        animation: t 2s ease  infinite ;
+        font-family: 'Baloo Bhai 2', cursive;
+       
+     }
+    
+    .pubg a img{
+        height: 15rem;
+        width: 15rem;
+        margin-top: 34rem;
+        margin-left: -33.7rem;
+      
+     }
+     .p{
+        width:15rem;
+        height: 100%;
+        margin-left: -33rem;
+    }
+     .p a{
+        color: white;
+        background-color: rgb(111, 0, 255);
+        font-size: 1rem;
+        text-transform: capitalize;
+        text-decoration: unset;
+        font-family: 'Baloo Bhai 2', cursive;
+        
+     }
+     .p a:hover{
+        color: aqua;
+       background: #000;
+       font-size: 1rem;
+       text-decoration: unset;
+       animation: t 4s ease  infinite ;
+       font-family: 'Baloo Bhai 2', cursive;
+    
+    }
+    .pro a img{
+    
+        height: 15rem;
+        width: 20rem;
+        margin-top: 34rem;
+        margin-left: -15rem;
+      
+    }
+    .pr{
+        width:15rem;
+        height: 100%;
+        margin-left: -15rem;
+    }
+
+     .pr a{ 
+        color: white;
+        background-color: rgb(111, 0, 255);
+        font-size: 1rem;
+        text-transform: capitalize;
+        text-decoration: unset;
+        font-family: 'Baloo Bhai 2', cursive;
+        
+    
+     }
+     .pr a:hover{
+        color: aqua;
+        background: #000;
+        font-size: 1rem;
+        text-decoration: unset;
+        animation: t 4s ease  infinite ;
+        font-family: 'Baloo Bhai 2', cursive;
+     
+    
+    }
+    footer{
+        width: 50rem;
+        height: 4rem;
+        background: #000;     text-align: center;
+     margin-top: 2rem;
+    }
+    h2{
+        color: white;
+    
+        
+    
+    }
+    h2 a{
+    color: white;
+        font-family: 'Baloo Bhai 2', cursive;
+     
+    }
+    h2 a:hover{
+        color: aqua;
+    
+        font-family: 'Baloo Bhai 2', cursive;
+     
+    }
+    
+}
+
+
+
